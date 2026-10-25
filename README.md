@@ -9,3 +9,15 @@ For monetization, I would make the first version of Inventory Tracker free and w
 Before launch, I would complete a final test of the major features. During development, I tested account creation, duplicate usernames, incorrect and correct login information, inventory creation, viewing, updating, deleting, database persistence, SMS permission denial, SMS permission approval, low-stock notifications, and turning SMS notifications off. I also successfully generated an APK in Android Studio, which confirmed that the project compiled without build errors.
 Overall, my launch plan for Inventory Tracker would focus on keeping the first release simple, reliable, and easy to understand. The main features are already working, and I would rather release a smaller application that works correctly than add unnecessary features that have not been fully tested. Future versions could add more advanced inventory tools based on user feedback while keeping the main purpose of the application clear and easy to use.
 
+For this project, I developed an Android Inventory Tracker app. The goal was to let users create an account, log in, add inventory items, update quantities, delete items, and receive optional SMS alerts when inventory gets low. The app was designed to make basic inventory management simple and easy to understand.
+
+The app needed a login screen, inventory screen, and SMS settings screen. I kept the interface simple so users could quickly see their inventory and access the most important actions without going through unnecessary screens. The inventory screen clearly separates the item name, quantity, and edit/delete actions.
+
+When developing the app, I worked in smaller sections and tested each feature before moving on. I connected the UI to Java code, used SQLite for persistent user and inventory data, and added SMS permission handling. This approach helped me find problems faster and is something I plan to continue using in future projects.
+
+I tested account creation, incorrect and correct login attempts, adding, editing, and deleting inventory, database persistence, SMS permission approval and denial, and low-stock alerts. Testing was important because it showed whether the app actually worked beyond just compiling successfully.
+
+One challenge was turning the UI from Project Two into a fully working application. I had to figure out how to connect the inventory rows to real database data and make editing and deleting work dynamically. Breaking the problem into smaller parts helped me solve it.
+
+I was especially successful with the inventory database and CRUD functionality. The app can create, read, update, and delete inventory items while keeping the data saved after the application is closed. This project gave me a much better understanding of how mobile UI design, Java code, databases, permissions, and testing all work together.
+
